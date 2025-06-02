@@ -21,11 +21,12 @@ def func_with_dict(tokens):
 
 tokens = get_tokens()
 
-print("---- FUNCTION WITHOUT DICT ----")
-func_without_dict(tokens)
-print("-------------------------------")
-print()
+for i in range(10000):
+    print("---- FUNCTION WITHOUT DICT ----")
+    func_without_dict(tokens)
+    print("-------------------------------")
+    print()
 
-print("---- FUNCTION WITH DICT ----")
-func_with_dict(tokens)
-print("-------------------------------")
+    print("---- FUNCTION WITH DICT ----")
+    func_with_dict(tokens)
+    print("-------------------------------")
